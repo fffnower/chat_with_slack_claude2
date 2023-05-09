@@ -2,7 +2,7 @@
 
 与[chat_with_slack_claude](https://github.com/fffnower/chat_with_slack_claude)的区别：
 
-1.曲线方法，实现真正重置对话（原理是弃用原先的消息列，开辟新的对话，不清楚开辟过多消息列会有什么负面影响）
+1.曲线方法，实现真正重置对话，即'/reset'（原理是弃用原先的消息列，开辟新的对话，不清楚开辟过多消息列会有什么负面影响）
 
 2.你需要额外获取 Claude 的成员ID
 
@@ -10,7 +10,7 @@
 
 他会假装忘记所有，不会再联系上下文进行回复了（实际还是记着）；
 
-此时你完全可以用 [chat_with_slack_claude](https://github.com/fffnower/chat_with_slack_claude)，
+此时推荐你用 [chat_with_slack_claude](https://github.com/fffnower/chat_with_slack_claude)，
 
 '/reset'是您需要完全重置Claude'性格'的时候，需要调用的方法，有些道德感比较强的'性格'可能不适用于与你的对话，原因我不多说...
 

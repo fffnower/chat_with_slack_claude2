@@ -27,7 +27,7 @@ pip install slackclient
 
 你需要网页端访问与Claude的聊天，并获取一些参数用来调用slack的api。
 
-你需要下载slack桌面端，获取Claude的成员id
+你需要下载slack桌面端，并获取一些参数用来调用slack的api。
 
 你需要将获取的参数，填入chat.py对应的位置（见注释）
 

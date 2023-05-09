@@ -79,7 +79,7 @@ pip install slackclient
 
 - 首先你需要在频道的输入框中 键入 @Claude 回车， 并同意应用接入你的频道。
 
-- 你可通过[https://api.slack.com/](https://api.slack.com/events/app_mention)中的api去调取成员id
+- 你可通过[https://api.slack.com/events/app_mention](https://api.slack.com/events/app_mention)中的api去调取成员id
 
 - 另外一个比较便捷的方法是，下载slack的桌面客户端，【应用】 --> 选中Claude右键 --> 【查看应用详情】 --> 复制【成员ID】
 

@@ -46,6 +46,9 @@ def get_print_new_msg():
         
         # \n&gt; _*Please note:* 
         # 当你的回复被*Please note:*提示时, 会有多条消息，我们调整获取策略，这里只获取第二条（第一条是我们的输入）
+        # 消息长度为1，未回复
+        if len(new_msg['messages']) == 1: 
+            continue
         idx = 1 - len(new_msg['messages'])
         new_msg = new_msg['messages'][idx]['text']
         # 未回复

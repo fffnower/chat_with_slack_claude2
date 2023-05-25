@@ -172,7 +172,7 @@ if __name__ == "__main__":
         两次回车换行进行交互, 请您开始吧!\n\
         输入'/reset'重置对话。\n\
     ***************************************************\n")
-    # 创建一个线程来打印队列中的元素
+    # 创建一个线程来消费队列中的音频文件
     printer_thread = threading.Thread(target=play_sound)
     printer_thread.start()
 

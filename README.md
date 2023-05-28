@@ -16,11 +16,10 @@
 
 ---
 
-你需要安装一些库:
+你需要安装一些库（前三个库是 chat2_tts用于实现语音可选功能的。）:
 
 ```
-pip install slack
-pip install slackclient
+pip install pyaudio, pydub, edge_tts, slack_sdk
 ```
 
 你需要在api.slack.com上做一些设置，并获取一些参数用来调用slack的api；

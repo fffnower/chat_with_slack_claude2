@@ -180,11 +180,11 @@ if __name__ == "__main__":
     # 是否开启语音1开启，0关闭
     tts_flag = 0
     # User OAuth Token
-    userOAuthToken = 'xoxp-5152878191811-5176692665200-5229626393938-03b9c74322420ce73759d696d0941920'
+    userOAuthToken = ''
     # 频道ID
-    channel_id = 'C057HQPRP3J'
+    channel_id = ''
     # claude_id
-    claude_id = 'U054E1VTU9K'
+    claude_id = ''
     # 连接slack
     client = WebClient(token=userOAuthToken)
     # 消息列最后一次的回复时间戳

@@ -176,18 +176,15 @@ if __name__ == "__main__":
         两次回车换行进行交互, 请您开始吧!\n\
         输入'/reset'重置对话。\n\
     ***************************************************\n")
-    # 创建一个线程来消费队列中的音频文件
-    printer_thread = threading.Thread(target=play_sound)
-    printer_thread.start()
 
     # 是否开启语音1开启，0关闭
-    tts_flag = 1
+    tts_flag = 0
     # User OAuth Token
-    userOAuthToken = ''
+    userOAuthToken = 'xoxp-5152878191811-5176692665200-5229626393938-03b9c74322420ce73759d696d0941920'
     # 频道ID
-    channel_id = ''
+    channel_id = 'C057HQPRP3J'
     # claude_id
-    claude_id = ''
+    claude_id = 'U054E1VTU9K'
     # 连接slack
     client = WebClient(token=userOAuthToken)
     # 消息列最后一次的回复时间戳
@@ -195,5 +192,8 @@ if __name__ == "__main__":
     # 更新回复的时间间隔
     time_step = 1
 
+    if tts_flag:
+        # 创建一个线程来打印队列中的元素
+        printer_thread = threading.Thread(target=play_sound)
+        printer_thread.start()
     chat()
-

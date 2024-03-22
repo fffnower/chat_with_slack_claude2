@@ -1,3 +1,5 @@
+# 无法使用
+
 # chat_with_slack_claude2
 
 与[chat_with_slack_claude](https://github.com/fffnower/chat_with_slack_claude)的区别：

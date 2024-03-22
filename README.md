@@ -1,4 +1,4 @@
-# 无法使用
+# 已无法使用
 
 # chat_with_slack_claude2
 
